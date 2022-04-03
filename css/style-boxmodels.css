@@ -1,0 +1,37 @@
+.title{
+    margin: auto;
+    width: 800px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    border-radius: 10px;
+    background-color: #e1d8cf;
+}
+.title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.first{
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.standard {
+    border: 5px solid teal;
+    background-color: #A5CFE3;
+    padding: 40px;
+    margin: 40px;
+    width: 350px;
+    height: 150px;
+  }
+
+  .alternate {
+    box-sizing: border-box;
+  }
+
+

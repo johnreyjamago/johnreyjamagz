@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e1d8cf;
+    overflow: overlay;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    background: #e1d8cf;
+    position: sticky;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    width: 230px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.links{
+    text-align: right top;
+}
+.links li{
+    display: inline-block;
+    margin: 0 35px;
+}
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    position: relative;
+}
+.links li a::after{
+    content: '';
+    background: gray;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;left: 0%;
+    transition: width 0.5s;
+}
+.links li a:hover::after{
+    width: 100%;
+}
+li a[href = "activities.html"]{
+    color: rgb(255, 255, 255);
+}
+.first{
+  
+    width: 700px;
+    height: 180px;
+    background-color: rgb(243, 235, 230);
+    border-radius: 20px;
+    transition: 1s;
+    margin: auto;
+    margin-bottom: 20px;
+    position: static;
+}
+.first img{
+    float: left;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.act1{
+    display: inline-block;
+    position:static;
+    padding-top: 50px;
+}
+.act1 p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+}
+.act1 a{
+    background-color: #e1d8cf;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(56, 56, 56);
+    padding: 15px;
+}
+.btn{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.act1 a:hover{
+    background-color: #65615d;
+    color: rgb(255, 255, 255);
+}
+.first:hover{
+    transform: scale(1.25);
+    background-color: white;
+}
+

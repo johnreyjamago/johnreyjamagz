@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("bg4.png");
+    background-size: 100%;
+    overflow: overlay;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    background: #e1d8cf;
+    position: sticky;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    width: 230px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.links{
+    text-align: right top;
+}
+.links li{
+    display: inline-block;
+    margin: 0 35px;
+}
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    position: relative;
+}
+.links li a::after{
+    content: '';
+    background: gray;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;left: 0%;
+    transition: width 0.5s;
+}
+.links li a:hover::after{
+    width: 100%;
+}
+li a[href = "contacts.html"]{
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 68px;
+    align-items: center;
+}
+.first{
+    margin: 20px;
+    width: 280px;
+    height: 320px;
+    background-color: white;
+    background-size: 100%;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow: rgba(30, 32, 33, 0.3) 0px 1px 2px 0px, rgba(13, 14, 14, 0.15) 0px 1px 3px 1px;
+}
+.first img{
+    width: 270px;
+    padding-left: 10px;
+    
+}
+.first:hover{
+    transform: scale(1.05);
+}
+.mail{
+    background: url("../images/icons/3.png");
+    display: inline-block;
+    background-size: contain;
+    width: 280px;
+    padding-left: 10px;
+}
+.mail:hover{
+    background: url("../images/icons/4.png");
+    display: inline-block;
+    background-size: contain;
+    width: 280px;
+    padding-left: 10px;
+}

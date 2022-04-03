@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e1d8cf;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    background: #e1d8cf;
+    position: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    width: 230px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.links{
+    text-align: right top;
+}
+.links li{
+    display: inline-block;
+    margin: 0 35px;
+}
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    position: relative;
+}
+.links li a::after{
+    content: '';
+    background: gray;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;left: 0%;
+    transition: width 0.5s;
+}
+.links li a:hover::after{
+    width: 100%;
+}
+li a[href = "index.html"]{
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.text{
+    padding-top: 240px;
+    padding-left: 100px;
+    display:inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #32312b;
+}
+.text1{
+    font-size: 40px;
+}
+.text2{
+    font-size: 80px;
+    font-weight: 785;
+}
+.text3{
+    font-size: 80px;
+    font-weight: 785;
+}
+.text4{
+    font-size: 20px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: #e1d8cf;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.btn{
+    padding-top: 20px;
+}
+.card{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    float: right;
+    margin-top: 260px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #9a9488, #bbb3a3);
+    transition: 1s;
+}
+.card img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 490px;
+    transition: 00.5s;
+}
+.card:hover img{
+    height: 680px;
+    left: 80%;
+    
+}
+.card:hover{
+    height: 480px;
+    border-radius: 600px;
+    background: linear-gradient(135deg, #cbb9af, #bbb3a3);
+}
+
+
+
+
+

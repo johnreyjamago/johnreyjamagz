@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("bg2.png");
+    overflow: overlay;
+}
+.header{
+    height: 75px;
+    width: 100%;
+    background: #e1d8cf;
+    position: sticky;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    width: 230px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.links{
+    text-align: right top;
+}
+.links li{
+    display: inline-block;
+    margin: 0 35px;
+}
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    position: relative;
+}
+.links li a::after{
+    content: '';
+    background: gray;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;left: 0%;
+    transition: width 0.5s;
+}
+.links li a:hover::after{
+    width: 100%;
+}
+li a[href = "profile.html"]{
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.first{
+    max-width: 75%;
+    height: 600px;
+    background-color: white;
+    background-size: 100%;
+    margin: auto;
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 68px;
+    box-shadow: rgba(30, 32, 33, 0.3) 0px 1px 2px 0px, rgba(13, 14, 14, 0.15) 0px 1px 3px 1px;
+}
+.first img{
+    float: left;
+    height: 580px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.part1{
+    padding-left: 75px;
+    position:static;
+    padding-top: 85px;
+    display: inline-block;
+}
+.part1 p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#hello{
+    font-size: 15px;}
+#name{
+    font-size: 50px;
+    font-weight: bold;}
+.part1 .sub{
+    font-size: 15px;
+}
+.part1 .sub1{
+    font-size: 15px;
+    color: rgb(139, 139, 139);
+}
+.info{
+    margin-left: 10%;
+}
+.info p{
+    font-size: 15px;
+    color: rgb(139, 139, 139);
+}
+.first:hover{
+    transform: scale(1.05);
+}

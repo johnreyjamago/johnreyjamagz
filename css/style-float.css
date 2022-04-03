@@ -1,0 +1,79 @@
+.title{
+    margin: auto;
+    width: 800px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    border-radius: 10px;
+    background-color: #e1d8cf;
+}
+.title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.first{
+    margin: auto;
+    min-height: 500px;
+    width: 800px;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.standard {
+    border: 5px solid teal;
+    background-color: #A5CFE3;
+    padding: 40px;
+    margin: 40px;
+    width: 350px;
+    height: 150px;
+  }
+  .container{height: 70vh;}
+  .box{
+      padding:25px;
+      text-align: center;
+      color: white;
+      
+  }
+  #box01{
+      background-color: teal;
+
+  }
+  #box02{
+      background-color: rgb(30, 146, 107);
+
+  }
+  #box03{
+      background-color: rgb(115, 202, 173);
+
+  }
+  #box04{
+      background-color: rgb(21, 109, 80);
+
+  }
+         
+  .box{
+      padding:25px;
+      text-align: center;
+      color: white;
+      
+  }
+  #box1{
+      background-color: teal;clear:none;
+
+  }
+  #box2{
+      background-color: rgb(30, 146, 107);float:left;height:300px;
+
+
+  }
+  #box3{
+      background-color: rgb(115, 202, 173);height:300px;
+
+  }
+  #box4{
+      background-color: rgb(21, 109, 80);clear:both;
+  }
+  
+
