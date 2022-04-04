@@ -5,19 +5,17 @@ body{
     margin: 0%;
     padding: 0%;
     background-color: #e1d8cf;
-
 }
 .header{
     height: 75px;
     width: 100%;
     background: #e1d8cf;
-    position: sticky;
+    position: relative;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 }
 .logo{
     width: 230px;
