@@ -3,8 +3,14 @@
     padding-top:50px;
     overflow: hidden;
     }
+body{
+    background-image:url("../images/blue-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
 .nav{
-        background-color: teal; 
+        background-color: #5090e8; 
         list-style-type: none;
         text-align: center;
         margin-top: 0%;
@@ -21,6 +27,15 @@
         text-decoration: none;
         color:white
         }
+.image{
+    display: block;
+    width: 20%;
+    padding-top:70px;
+    margin: auto;
+}
+.image img{
+    width: 100%;
+}       
 .card {
      /* Add shadows to create the "card" effect */
      border-radius: 5px;
