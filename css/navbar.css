@@ -7,15 +7,17 @@ body{
     background-color: #e1d8cf;
 }
 .header{
-    height: 75px;
+    height: 50px;
     width: 100%;
     background: #e1d8cf;
-    position: relative;
+    display: block;
+
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: static;
 }
 .logo{
     width: 230px;

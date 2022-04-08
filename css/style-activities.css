@@ -9,16 +9,14 @@ body{
     overflow: overlay;
 }
 .header{
-    height: 75px;
+    height: 50px;
     width: 100%;
     background: #e1d8cf;
-    position: sticky;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
 }
 .logo{
     width: 230px;
@@ -55,8 +53,7 @@ li a[href = "activities.html"]{
     color: rgb(255, 255, 255);
 }
 .first{
-  
-    width: 700px;
+    max-width: 700px;
     height: 180px;
     background-color: rgb(243, 235, 230);
     border-radius: 20px;

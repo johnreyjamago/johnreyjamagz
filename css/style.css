@@ -2,9 +2,12 @@
     margin: auto;
     width: 800px;
     border-style: solid;
+    border-width: 2px;
     border-color: rgb(87, 87, 87);
     border-radius: 10px;
     background-color: #e1d8cf;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 .title p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,9 +19,13 @@
     min-height: 900px;
     width: 80%;
     border-style: solid;
+    border-width: 2px;
     border-color: rgb(87, 87, 87);
     background-color: white;
-    padding: 10px;
+}
+ul li{
+    list-style:circle;
+    list-style-position: inside;
 }
 .page-content{
     padding-top:30px;
